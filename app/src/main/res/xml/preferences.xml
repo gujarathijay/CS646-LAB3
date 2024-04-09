@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="max_guesses"
+        android:title="Maximum Number of Guesses"
+        android:dialogTitle="Set Maximum Number of Guesses"
+        android:inputType="number"
+        android:defaultValue="5"
+        android:summary="Specify the maximum number of guesses allowed"/>
+
+</PreferenceScreen>
